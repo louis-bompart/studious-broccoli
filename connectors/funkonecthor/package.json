@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "baguette-connector-sdk": "1.0.1"
+    "baguette-connector-sdk": "1.0.2"
   },
   "devDependencies": {
     "@netlify/functions": "^1.0.0"
