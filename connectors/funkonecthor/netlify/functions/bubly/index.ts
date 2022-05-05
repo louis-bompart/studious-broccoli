@@ -12,6 +12,6 @@ export const handler: Handler = async (event, context) => {
   const data = await myitemtype.call(getArgs(event, context), routeInfo);
   return {
     statusCode: 200,
-    body: JSON.stringify(data),
+    body: JSON.stringify([data]),
   };
 };
