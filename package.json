@@ -11,5 +11,8 @@
   "license": "ISC",
   "workspaces": [
     "connectors\\funkonecthor"
-  ]
+  ],
+  "dependencies": {
+    "baguette-connector-sdk": "^1.0.2"
+  }
 }
